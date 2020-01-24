@@ -5,23 +5,26 @@ $(document).ready(function () {
     event.preventDefault();
     // Store user-input in var "value" as string //
     var value = $("#input").val();
-    //store "value" in var "range" as int //
-
-    ///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
     // Back-end logic //
+    
 
+    // function to get range of int from zero to int //
+    var range = function(zero, integer) {
+      var array = [];
+      counter = zero;
 
-    // function to get range of int from 0 to int //
-    function range(start, end) {
-      var ans = [];
-      for (var i = start; i <= end; i++) {
-        ans.push(i);
+      while (counter <= integer) {
+        array.push(counter);
+        counter++;
       }
-      return ans;
-    }
-    var int = parseInt(value);
-    var new_array = int.map(range);
-    console.log(new_array);
+      return array;
+    };
 
+    var integer = parseInt(value);
+    var zero = parseInt(0);
+
+    var x = range(zero, integer);
+    console.log(x);
   });
 });
