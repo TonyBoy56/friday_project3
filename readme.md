@@ -9,7 +9,14 @@
 _Link to gh-pages branch_
 _https://assassin56.github.io/friday_project3/_
 
-_This is my first portfolio page. Here you will find information about me, my personal life, and my career ambitions followed by my work history._
+_This is a webpage that allows the user to input a number and give back a list of numbers from 0 to their input. The 1s, 2s, and 3s are to be replaced with silly phrases that would imitate a robot._
+
+## SPEC Sheet
+
+| Behavior      | input           | output |
+| :------------ |:---------------:| -----:|
+| User-Input | "any number" | "Return string with replaced indices consisting of phrases" |
+
 
 ## Previous Projects
 
@@ -28,8 +35,6 @@ https://github.com/assassin56/vacation.git
 * _git clone this repo from desktop https://github.com/assassin56/friday_project3.git_
 * _open index.html in browser, or drag/drop index.html in browser._
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
-
 ## Known Bugs
 
 _JavaScript is nearly functional, although is not able to return an array containing desired strings just yet_
@@ -46,6 +51,7 @@ _codrocks.cruz3@gmail.com_
 * _HTML_
 * _Bootstrap_
 * _Git_
+* _JQuery_
 
 ### License
 
