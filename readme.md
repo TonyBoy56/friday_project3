@@ -13,6 +13,12 @@ _This is a webpage that allows the user to input a number and give back a list o
 
 ## SPEC Sheet
 
+* Create a a function that determines the range from 0 to any number based on user-input.
+   * Input: function range(inputtedInteger)
+   * Output: Push counter variable created inside the function to array.
+      * Loop Counter until <= the value of the user-input.
+      * Push until equal.
+      * Return the array
 * Store, in an array, the range from 0 to an inputted number by the user.
    * Input: Example [24]
    * Output: array1 = [0, 1,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 , 10... 24]
