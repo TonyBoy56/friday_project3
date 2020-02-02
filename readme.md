@@ -22,15 +22,15 @@ _This is a webpage that allows the user to input a number and give back a list o
 * Store, in an array, the range from 0 to an inputted number by the user.
    * Input: Example [24]
    * Output: array1 = [0, 1,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 , 10... 24]
-* Pass this array to another function. This will replace the following values with the specified phrases in a new array: 
+* Pass this array to another for-loop within the same function. This will replace the following values with the specified phrases in the array: 
   [1]: "Beep!"
   [2]: "Boop!"
   [3]: "I'm sorry Dave. I'm afraid I can't do that."
    * Input: Example [24]
-   * Output: array2 = [0, "Beep", "Boop", "I'm sorry Dave. I'm afraid I can't do that.", 4, 5, 6, 7, 8, 9, "Beep"... "I'm sorry Dave. I'm afraid I can't do that."]
-* Upon user submition, return array2 as text to the webpage.
+   * Output: array = [0, "Beep", "Boop", "I'm sorry Dave. I'm afraid I can't do that.", 4, 5, 6, 7, 8, 9, "Beep"... "I'm sorry Dave. I'm afraid I can't do that."]
+* Upon user submition, return array as text to the webpage.
    * Input: Example [24]
-   * Output: array2 = [0, "Beep", "Boop", "I'm sorry Dave. I'm afraid I can't do that.", 4, 5, 6, 7, 8, 9, "Beep"... "I'm sorry Dave. I'm afraid I can't do that."]
+   * Output: array = [0, "Beep", "Boop", "I'm sorry Dave. I'm afraid I can't do that.", 4, 5, 6, 7, 8, 9, "Beep"... "I'm sorry Dave. I'm afraid I can't do that."]
 
 
 
