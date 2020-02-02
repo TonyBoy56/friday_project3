@@ -13,7 +13,7 @@ _This is a webpage that allows the user to input a number and give back a list o
 
 ## SPEC Sheet
 
-* Create a a function that determines the range from 0 to any number based on user-input.
+* Create a function that determines the range from 0 to any number based on user-input.
    * Input: function range(inputtedInteger)
    * Output: Push counter variable created inside the function to array.
       * Loop Counter until <= the value of the user-input.
@@ -40,7 +40,7 @@ _This is a webpage that allows the user to input a number and give back a list o
 
 ## Known Bugs
 
-_JavaScript is nearly functional, although is not able to return an array containing desired strings just yet_
+_N/A_
 
 ## Support and contact details
 
