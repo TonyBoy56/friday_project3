@@ -23,7 +23,7 @@ $(document).ready(function () {
     // console.log(y);
 
     function range(zero, integer) {
-      var array = [];
+      var array = [];   
       counter = zero;
       while (counter <= integer) {
         array.push(counter);
