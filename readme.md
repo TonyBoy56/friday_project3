@@ -30,10 +30,7 @@ _This is a webpage that allows the user to input a number and give back a list o
 
 ## Setup/Installation Requirements
 
-* _Install Git Bash_
-* _git init from desktop_
-* _git clone this repo from desktop https://github.com/assassin56/friday_project3.git_
-* _open index.html in browser, or drag/drop index.html in browser._
+* Click the link above under the "Descriptions" tab. This should lead you directly to the webpage.
 
 ## Known Bugs
 
